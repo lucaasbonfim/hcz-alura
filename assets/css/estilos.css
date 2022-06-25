@@ -395,3 +395,21 @@ body {
         grid-area: secao-produtos;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .menu-lateral__link:hover {
+        background-color: #1b2125;
+    }
+
+    .cartao:hover {
+        width: 103%;
+        transition: 400ms;
+    }
+
+    .cartao__botao:hover {
+        background-color: #FFF;
+        color: #0480DC;
+        transition: 400ms;
+        cursor: pointer;
+    }
+}
